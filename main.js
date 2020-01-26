@@ -35,7 +35,7 @@ var imgArray = [
     'img/nils.jpg',
     'img/img4.jpg'],
     curIndex = 0;
-    imgDuration = 10000;
+    imgDuration = 7000;
 
 function slideShow() {
     document.getElementById('slide').className += "fadeOut";

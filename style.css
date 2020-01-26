@@ -96,8 +96,7 @@ h2 span {
 }
 
 .text-box {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem;
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -109,9 +108,9 @@ h2 span {
 img#slide {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-right: 5rem;
-  max-width: 500px;
-  max-height: 500px;
+  padding-left: 2.5rem;
+  max-width: 50%;
+  max-height: 50%;
   transition: opacity 1s ease-out;
   opacity: 1;
 }
@@ -129,4 +128,28 @@ img#slide.fadeOut {
 
 .container-2-box {
   width: 8%;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 1225px) {
+  .container {
+    flex-direction: column;
+  }
+
+  img#slide {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+    padding-top: 1rem;
+  }
+
+  .text-box {
+    font-size: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+  }
+
 }
