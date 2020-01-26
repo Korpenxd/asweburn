@@ -141,6 +141,11 @@ img#slide.fadeOut {
     flex-direction: column;
   }
 
+  html {
+    background-color: #000;
+    background-attachment: scroll;
+  }
+
   img#slide {
     margin-right: auto;
     margin-left: auto;
