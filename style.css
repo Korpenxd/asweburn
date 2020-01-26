@@ -147,6 +147,10 @@ img#slide.fadeOut {
     padding-top: 1rem;
   }
 
+  html, body {
+    background-attachment: initial;
+  }
+
   .text-box {
     font-size: 1rem;
     padding: 1rem;
