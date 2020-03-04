@@ -141,10 +141,13 @@ img#slide.fadeOut {
     flex-direction: column;
   }
 
+
+  /*
   html {
     background-color: #000;
     background-attachment: scroll;
   }
+  */
 
   img#slide {
     margin-right: auto;
@@ -153,7 +156,13 @@ img#slide.fadeOut {
     max-width: 100%;
     max-height: 100%;
     padding: 0;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  p {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
   }
 
   .text-box {
