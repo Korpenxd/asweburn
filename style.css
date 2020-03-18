@@ -29,13 +29,12 @@ nav a {
   display: inline-block;
   width: 100px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   text-transform: uppercase;
   padding: 30px 0px;
   margin: 0 10px;
   font-weight: bold;
   color: #d3d3d3;
-  font-family: arial;
   text-shadow: 1px 1px 2px #000, 0 0 5px #000, 0 0 1px #000;
 }
 
@@ -45,6 +44,7 @@ nav li span {
   -moz-transition-delay:all .2s ease;
   -ms-transition-delay:all .2s ease;
   -o-transition-delay:all .2s ease;
+  text-decoration: none;
 }
 
 nav li span:hover {
@@ -57,6 +57,10 @@ nav a#openup {
 
 a {
   color: #4d0f10;
+}
+
+a:hover {
+  color: #6e1718;
 }
 
 img.center {
@@ -110,18 +114,17 @@ h2 span {
   animation-delay: 1s;
 }
 
-img#slide {
+#slide {
   padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 2.5rem;
-  max-width: 50%;
-  max-height: 50%;
   transition: opacity 1s ease-out;
   opacity: 1;
 }
 
-img#slide.fadeOut {
-  opacity: 0.2;
+.carousel-item img {
+  width: 28rem;
+  height: 29rem;
 }
 
 .container-2 {
@@ -149,14 +152,17 @@ img#slide.fadeOut {
   }
   */
 
-  img#slide {
+  #slide {
+
+    padding: 0;
+  }
+
+  .carousel-item img {
+    max-height: 35vh;
+    max-width: 35vh;
+    padding-top: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 90%;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 0;
-    padding-top: 1.5rem;
   }
 
   p {
